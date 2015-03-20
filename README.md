@@ -3,21 +3,17 @@
 
 ### Install
 
-Cloning the repository and installing required Python library package
+The easiest way to install DoThings is using pip.
 
 ```bash
-git clone https://github.com/MarzinZ/things.git
-cd things
-pip install -r requirements.txt
-chomd +x things.py
+pip install DoThings
 ```
 
-Setting up an alias to run things.py
+Or cloning the repository and go to the directory.
 
 ```bash
-alias things=~/your/path/things.py
+python setup.py install
 ```
-
 ### Using
 
 ```
